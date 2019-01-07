@@ -23,6 +23,37 @@ p {
     margin-right: 50px;
 }
 
+.social {
+    list-style: none;
+    display: inline-block;
+}
+
+.social li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.social li a{
+    display: block;
+    background-image: url(../../images/iconsheetfooter.png);
+    width: 20px;
+    height: 20px;
+    color: rgba(0,0,0,0);
+}
+
+#facebook{
+    background-position: 20px 0px;
+}
+
+#twitter:hover{
+    background-position: 0px 20px;
+}
+
+#facebook:hover{
+    background-position: 20px 20px;
+}
+
 
 .websites{
     color:white;
@@ -33,10 +64,10 @@ p {
         float:left;
         margin-left: 50px;
     }
-    
+
     .websites{
         float: right;
         margin-right: 50px;
     }
-    
+
 }
