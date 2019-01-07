@@ -1,0 +1,60 @@
+.side li{
+    display: inline-block;
+}
+.side ul{
+    list-style: none;
+    padding: 0px;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+}
+.Kleuter::before{
+    content: "\e900";
+    font-family: "icomoon";
+    padding-right: 20px;
+    padding-left: 4px;
+}
+.Lagereschool::before{
+    content: "\e900";
+    font-family: "icomoon";
+    padding-right: 18px;
+    padding-left: 3px;
+}
+.Adolescenten::before{
+    content: "\e900";
+    font-family: "icomoon";
+    padding-right: 16px;
+    padding-left: 2px;
+}
+.Informatief::before{
+    content: "\e900";
+    font-family: "icomoon";
+    padding-right: 12px;
+    
+}
+.Kleuter{
+    font-size: 14px;
+}
+.Lagereschool{
+    font-size: 18px;
+}
+.Adolescenten{
+    font-size: 20px;
+}
+.Informatief{
+    font-size: 24px;
+}
+.side a{
+    text-decoration: none;
+    color: #3B635B;
+    
+}
+@media screen and (min-width: 1024px){
+    .side li{
+        display: list-item;
+    }
+    .side ul{
+        text-align: left;
+        margin: 0px;        
+    }
+}
