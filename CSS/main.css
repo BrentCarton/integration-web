@@ -1,10 +1,12 @@
 /*BASIS*/
 @import url(basis/typografie.css);
 @import url(basis/basis.css);
+@import url(fonts.css);
 
 /*NAVIGATIE*/
 @import url(navigatie/header.css);
 @import url(navigatie/footer.css);
+@import url(sidenav.css);
 
 /*PAGINAS*/
 @import url(paginas/home.css);

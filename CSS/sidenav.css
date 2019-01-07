@@ -1,3 +1,7 @@
+.side{
+    margin-top: 50px;
+}
+
 .side li{
     display: inline-block;
 }
