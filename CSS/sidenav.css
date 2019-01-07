@@ -1,5 +1,5 @@
 .side{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .side li{
@@ -61,4 +61,7 @@
         text-align: left;
         margin: 0px;        
     }
+    .side a:hover{
+   color: #F7C954; 
+}
 }
