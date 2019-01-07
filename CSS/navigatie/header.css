@@ -5,7 +5,7 @@ header nav {
     padding: 0px;
 }
 
-#current, #media:hover{
+#current{
     background-image: url(../../images/selectieV.svg);
     background-repeat: no-repeat;
     background-size: 50px;
@@ -38,6 +38,7 @@ header li a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
+    transition: .2s;
 }
 
 header li a:hover {
@@ -49,26 +50,26 @@ header li a:hover {
     margin-top: -45px;
 }
 
-#subnav1 {
+.subnav1 {
     display: none;
     width: 300px;
 }
 
-#subnav1 li{
+.subnav1 li{
     margin-left: 20px;
     font-size: 18px;
     margin-top: -15px;
 }
 
-#subnav1 li a{
+.subnav1 li a{
     font-size: 18px;
     text-align: center;
 }
 
-#media:hover #subnav1{
+#media:hover .subnav1{
     display: block;
 }
 
-#current #subnav1{
+#current .subnav1{
     display: block;
 }
