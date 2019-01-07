@@ -1,11 +1,11 @@
-nav {
+header nav {
      background-color: white;
     display: block;
     margin: -7px;
     padding: 0px;
 }
 
-#current{
+#current, #media:hover{
     background-image: url(../../images/selectieV.svg);
     background-repeat: no-repeat;
     background-size: 50px;
@@ -13,25 +13,25 @@ nav {
     background-position: 50% 40px;
 }
 
-nav img{
+header nav img{
     position: absolute;
     width: 187px;
     margin-left: 50px;
     margin-top: 12px;
 }
 
-ul {
+header ul {
     list-style-type: none;
     margin: 0px 50px 0px 0px;
     padding: 0px;
     overflow: hidden;
 }
 
-li {
+header li {
     float: right;
 }
 
-li a {
+header li a {
     display: block;
     color: #3B635B;
     text-align: center;
@@ -40,7 +40,7 @@ li a {
     font-size: 25px;
 }
 
-li a:hover {
+header li a:hover {
     color: #F7C954;
 }
 
@@ -49,4 +49,26 @@ li a:hover {
     margin-top: -45px;
 }
 
+#subnav1 {
+    display: none;
+    width: 300px;
+}
 
+#subnav1 li{
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+#subnav1 li a{
+    font-size: 18px;
+    text-align: center;
+}
+
+#media:hover #subnav1{
+    display: block;
+}
+
+#current #subnav1{
+    display: block;
+}
