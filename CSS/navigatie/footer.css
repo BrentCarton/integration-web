@@ -13,7 +13,6 @@ a {
 }
 
 .contact{
-    width: 10%;
     margin-left: 50px;
     text-align: left;
     float:left;
@@ -22,13 +21,24 @@ a {
 .number{
     color:white;
     float:left;
+    margin-left: 20px;
 }
 
 
 .websites{
     color:white;
-    margin-right: 50px;
+    margin-right: 25px;
     text-align: right;
     float: right;
 }
+
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+
 
