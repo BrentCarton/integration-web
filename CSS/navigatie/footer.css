@@ -14,7 +14,7 @@ a {
 
 .contact{
     width: 10%;
-    margin-left: 3%;
+    margin-left: 50px;
     text-align: left;
     float:left;
 }
@@ -27,8 +27,8 @@ a {
 
 .websites{
     color:white;
-    margin-right: 2%;
+    margin-right: 50px;
     text-align: right;
-    float:right;
+    float: right;
 }
 
