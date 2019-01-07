@@ -8,37 +8,70 @@ footer{
     float:left;
 }
 
-a {
+a, p {
     color: white;
 }
 
-.contact{
+p {
     margin-left: 50px;
-    text-align: left;
-    float:left;
+    float: left;
 }
 
 .number{
     color:white;
-    float:left;
-    margin-left: 20px;
+    float: right;
+    margin-right: 50px;
+}
+
+.social {
+    list-style: none;
+    display: inline-block;
+}
+
+.social li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.social li a{
+    display: block;
+    background-image: url(../../images/iconsheetfooter.png);
+    width: 20px;
+    height: 20px;
+    color: rgba(0,0,0,0);
+}
+
+#facebook{
+    background-position: 20px 0px;
+}
+
+#twitter:hover{
+    background-position: 0px 20px;
+}
+
+#facebook:hover{
+    background-position: 20px 20px;
 }
 
 
 .websites{
     color:white;
-    margin-right: 25px;
-    text-align: right;
-    float: right;
 }
 
+@media only screen and (min-width: 670px){
+    .social {
+        margin-top: 17px;
+    }
+    
+    .contact, .number {
+        float:left;
+        margin-left: 50px;
+    }
 
-.container {
-	max-width:400px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
+    .websites{
+        float: right;
+        margin-right: 50px;
+    }
+
 }
-
-
-
