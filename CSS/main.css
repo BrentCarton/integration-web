@@ -1,3 +1,10 @@
-@import url(navigatie/footer.css);
+/*BASIS*/
 @import url(basis/typografie.css);
+@import url(basis/basis.css);
+
+/*NAVIGATIE*/
+@import url(navigatie/header.css);
+@import url(navigatie/footer.css);
+
+/*PAGINAS*/
 @import url(paginas/home.css);
