@@ -1,0 +1,34 @@
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3B635B;
+    color: white;
+    float:left;
+}
+
+a {
+    color: white;
+}
+
+.contact{
+    width: 10%;
+    margin-left: 3%;
+    text-align: left;
+    float:left;
+}
+
+.number{
+    color:white;
+    float:left;
+}
+
+
+.websites{
+    color:white;
+    margin-right: 2%;
+    text-align: right;
+    float:right;
+}
+
