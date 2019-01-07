@@ -8,27 +8,35 @@ footer{
     float:left;
 }
 
-a {
+a, p {
     color: white;
 }
 
-.contact{
-    width: 10%;
+p {
     margin-left: 50px;
-    text-align: left;
-    float:left;
+    float: left;
 }
 
 .number{
     color:white;
-    float:left;
+    float: right;
+    margin-right: 50px;
 }
 
 
 .websites{
     color:white;
-    margin-right: 50px;
-    text-align: right;
-    float: right;
 }
 
+@media only screen and (min-width: 670px){
+    .contact, .number {
+        float:left;
+        margin-left: 50px;
+    }
+    
+    .websites{
+        float: right;
+        margin-right: 50px;
+    }
+    
+}
