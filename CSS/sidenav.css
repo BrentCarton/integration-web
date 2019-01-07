@@ -12,40 +12,40 @@
     margin: 0 10%;
     text-align: center;
 }
-.Kleuter::before{
+.Categorie1::before{
     content: "\e900";
     font-family: "icomoon";
     padding-right: 20px;
     padding-left: 4px;
 }
-.Lagereschool::before{
+.Categorie2::before{
     content: "\e900";
     font-family: "icomoon";
     padding-right: 18px;
     padding-left: 3px;
 }
-.Adolescenten::before{
+.Categorie3::before{
     content: "\e900";
     font-family: "icomoon";
     padding-right: 16px;
     padding-left: 2px;
 }
-.Informatief::before{
+.Categorie4::before{
     content: "\e900";
     font-family: "icomoon";
     padding-right: 12px;
     
 }
-.Kleuter{
+.Categorie1{
     font-size: 14px;
 }
-.Lagereschool{
+.Categorie2{
     font-size: 18px;
 }
-.Adolescenten{
+.Categorie3{
     font-size: 20px;
 }
-.Informatief{
+.Categorie4{
     font-size: 24px;
 }
 .side a{
