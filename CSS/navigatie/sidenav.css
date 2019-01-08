@@ -8,8 +8,8 @@
 .side ul{
     list-style: none;
     padding: 0px;
-    width: 80%;
-    margin: 0 10%;
+    width: 98%;
+    margin: 0 1%;
     text-align: center;
 }
 .Categorie1::before{
@@ -40,13 +40,13 @@
     font-size: 14px;
 }
 .Categorie2{
-    font-size: 18px;
+    font-size: 16px;
 }
 .Categorie3{
-    font-size: 20px;
+    font-size: 18px;
 }
 .Categorie4{
-    font-size: 24px;
+    font-size: 20px;
 }
 .side a{
     text-decoration: none;

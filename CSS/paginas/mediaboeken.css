@@ -1,0 +1,24 @@
+.gallery{
+    overflow: auto;
+    white-space: nowrap;
+    height: 400px;
+    padding-left: 10%;
+}
+.gallery h4{
+    color: #3B635B;
+    margin-top: 0px;
+}
+.gallery img{
+    height: 30vh;
+}
+.gallery figure{
+    margin: 0px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.gallery figcaption{
+    font-size: 12px;
+}
+main{
+    margin-bottom: 150px;
+}
