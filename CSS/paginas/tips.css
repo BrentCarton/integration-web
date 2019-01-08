@@ -15,11 +15,12 @@
 }
 
 .tips h1{
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .tips h2{
-    margin-left: 100px;
+    margin-left: 50px;
+    font-size: 20px;
 }
 
 .tip img {
@@ -52,6 +53,26 @@ section:last-of-type{
 
 @media only screen and (max-width: 786px){
     .tips{
-        margin: 10px 50px;
+        margin: 10px 25px;
+    }
+    
+    .tip {
+        width: 100%;
+    }
+    
+    .tip img {
+        clear: both;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .tip h2 {
+        margin-left: 25px;
+    }
+    
+    .tip p, .tip h3{
+        width: 100%;
+        clear: both;
+        padding: 0px;
     }
 }
