@@ -1,8 +1,15 @@
 .tips{
-    margin: 100px 100px 0px; 
+    margin: 10px 100px 0px; 
 }
 
-.tips h1, .tips h2, .tips a {
+.title {
+    font-size: 30px;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.tips h2, .tips a {
     color: #3B635B;
 }
 
@@ -75,4 +82,8 @@ section:last-of-type{
         clear: both;
         padding: 0px;
     }
+    
+    .title {
+    margin-top: 10px;
+}
 }
