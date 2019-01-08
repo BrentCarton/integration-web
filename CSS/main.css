@@ -1,13 +1,14 @@
 /*BASIS*/
 @import url(basis/typografie.css);
 @import url(basis/basis.css);
-@import url(fonts.css);
+@import url(basis/fonts.css);
 
 /*NAVIGATIE*/
 @import url(navigatie/header.css);
 @import url(navigatie/footer.css);
-@import url(sidenav.css);
+@import url(navigatie/sidenav.css);
 
 /*PAGINAS*/
 @import url(paginas/home.css);
-@import url(paginas/home.css);
+@import url(paginas/links.css);
+@import url(paginas/tips.css);
