@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <title>Kinderen en palliatieve zorg - Contact</title>
-    <link rel="stylesheet" href="../CSS/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-</head>
-<body>
-    <header>
-         <nav>
-        <ul>
-            <li id="current"><a href="contact.html">Contact</a></li>
-           <li class="media"><a href="#subnav1">Media</a>
-            <div id="subnav1">
-            <ul>
-                <li><a href="mediaboeken.html">Boeken &amp; multimedia</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kinderen en palliatieve zorg - Contact</title>
+        <link rel="stylesheet" href="../CSS/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li id="current"><a href="contact.html">Contact</a></li>
+                    <li class="media"><a href="#subnav1">Media</a>
+                        <div id="subnav1">
+                            <ul>
+                                <li><a href="mediaboeken.html">Boeken &amp; multimedia</a></li>
                                 <li><a href="medialinks.html">Links</a></li>
-            </ul>
-        </div></li>
-            <li><a href="tips.html">Tips</a></li>
-        </ul>
-        <div class="logo">
-            <a href="home.html"><img a src="../images/logo.svg" alt="logo"></a>
-        </div>
-    </nav>
-    </header>
-    <main>
-        
-    </main>
-    <footer>
+                            </ul>
+                        </div></li>
+                    <li><a href="tips.html">Tips</a></li>
+                </ul>
+                <div class="logo">
+                    <a href="home.html"><img a src="../images/logo.svg" alt="logo"></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1 class='titel'> Contact</h1>
+            <p class = 'tekst'> Federatie Palliatieve Zorg Vlaanderen vzw <br> <br> Toekomststraat 36 <br> 1800 Vilvoorde <br> <br> tel: <a class="tel" href="tel:02 255 30 40"><u>02 255 30 40</u></a> <br> <br> fax: <a class="fax" href="fax:02 255 30 41 "><u>02 255 30 41 </u></a> <br> <br> info@palliatief.be</p>
+            <div>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="305" height="240" id="gmap_canvas" src="https://maps.google.com/maps?q=Toekomststraat%2036%20vilvoorde&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
+            </div>
+            <div>
+                <div class="container">  
+                    <form id="contact" action="" method="post">
+                        <h2>Vragen</h2>
+                        <fieldset>
+                            <input placeholder="Naam" type="text" tabindex="1" required autofocus>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Voornaam" type="email" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="E-mail" type="tel" tabindex="3" required>
+                        </fieldset>
+                        <fieldset>
+                            <textarea placeholder="Stel hier je vraag" tabindex="5" required></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Verzenden</button>
+                        </fieldset>
+                    </form>
+
+
+                </div>
+            </div>
+        </main>
+        <footer>
             <p class="contact"><a href="contact.html">Contacteer ons</a></p>
             <p class="number"><a href="tel:02 255 30 40">02 255 30 40</a></p>
             <ul class="social">
@@ -38,5 +66,5 @@
             </ul>
             <p class="websites">Onze websites: <a href="http://www.pallialine.be">pallialine.be</a> - <a href="http://www.palliatief.be/template.asp?f=index.htm">palliatief.be</a></p>
         </footer>
-</body>
+    </body>
 </html>

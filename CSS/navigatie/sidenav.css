@@ -51,9 +51,17 @@
 .side a{
     text-decoration: none;
     color: #3B635B;
-    
+    transition: .2s;
 }
+
 @media screen and (min-width: 1024px){
+    .side{
+        position: fixed;
+        top: 115px;
+        right: 50px;
+        width: 300px;
+    }
+    
     .side li{
         display: list-item;
     }

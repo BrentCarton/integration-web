@@ -78,10 +78,6 @@ header li a:hover {
     display: block;
 }
 
-#current #subnav1{
-    display: block;
-}
-
 @media only screen and (min-width: 768px){
     #current{
     background-position: 50% 60px;
@@ -98,6 +94,7 @@ header li a:hover {
     header li {
         float: right;
         padding: 0px;
+        margin-left: 100px;
     }
 
     header li:last-of-type{
