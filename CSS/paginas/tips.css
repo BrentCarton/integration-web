@@ -1,0 +1,43 @@
+.tips{
+    margin: 100px 100px 0px; 
+}
+
+.tips h1, .tips h2 {
+    color: #3B635B;
+}
+
+.tips h1{
+    margin-left: 50px;
+}
+
+.tips h2{
+    margin-left: 100px;
+}
+
+.tip img {
+    width: 40%;
+    float: left;
+}
+
+.tip p, .tip h3 {
+    margin: 0px;
+    width: 60%;
+    color: #3B635B;
+    float: right;
+    box-sizing: border-box;
+    padding: 0px 25px;
+}
+
+.tip p {;
+    height: 100%;
+}
+
+.tip {
+    display: block;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.tip:last-of-type{
+    margin-bottom: 100px;
+}
