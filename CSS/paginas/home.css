@@ -36,84 +36,20 @@
     margin: auto;
 }
 
-@media only screen and (max-width: 600px) {
-    /*home1*/
-
-    .afmontage > img {
-        width: 98%;
-        margin-left:2%;
-        
+@media only screen and (max-width: 768px) {
+    .getuigenis {
+        width: 100%;
     }
-
-    .titelhome {
-        margin-top: 105px;
-        font-size: 38px;
+    
+    .getuigenis img, .getuigenis p, .getuigenis h3 {
+        width: 100%;
     }
-
-    /*home2*/
-
+    
+    .getuigenis h3 {
+        margin-bottom: -10px;
+    }
+    
     .geel {
-        margin-left: 10%;
-        width: 80%;
-        height: 112vh;
-
-    }
-
-    .geel > .getuig2 img {
-        padding-top: 0%;
-        margin-left: 0%;
-        width: 100%;
-    }
-
-    .getuig2 > .flo {
-        margin-top: 3%;
-        font-size: 16px;
-    }
-
-    .getuig2 > p {
-        position: absolute;
-        margin-right: 16%;
-        margin-left: 3%;
-        margin-top: 10%;
-        font-size: 12px;
-    }
-
-    .geel > .getuig1 img {
-        width: 100%;
-        margin-left: 0%;
-        padding-top: 70%;
-
-    }
-
-    .getuig1 > p {
-        margin-right: 19%;
-        margin-top: 3%;
-        margin-left: 3%;
-    }
-
-    .getuig1 > .sarah {
-        margin-top: -5%;
-        margin-left: 3%;
-    }
-
-    /*home3*/
-    .blauw > .titelinleiding {
-        margin-left: 5%;
-    }
-
-    .inleiding {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .blauw {
-        padding-bottom: 95%;
-
-    }
-
-    .blauw > img {
-        margin-left: 3%;
-        padding-top: 22%;
-        width: 93%;
+        padding: 25px;
     }
 }
