@@ -1,7 +1,7 @@
 .gallery{
     overflow: auto;
     white-space: nowrap;
-    height: 500px;
+    height: 480px;
     padding-left: 7%;
 }
 .gallery h4{
@@ -16,13 +16,18 @@
     display: inline-block;
     margin-right: 10px;
 }
-.figcaption{
+.gallery p{
+    color: black;
     font-size: 12px;
+    margin: 0px;
 }
-.beer{
-    height: auto;
-    width: 80%
+.gallery .beer{
+    height: 27vh;
+    padding-bottom: 30px;
 }
 main{
     margin-bottom: 150px;
+}
+.multimedia{
+    margin: 0px;
 }
