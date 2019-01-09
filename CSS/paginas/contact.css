@@ -11,7 +11,7 @@ body{
 .titel{
     text-align: center;
     margin-top: 80px;
-    margin-right: 700px
+    margin-right: 580px
 }
 .tekst{
     margin-left: 10px;
@@ -78,11 +78,11 @@ fieldset {
 
 #contact button[type="submit"] {
     cursor:pointer;
-    width:100%;
+    width:45%;
     border:none;
     background:white;
     color:black;
-    padding:15px;
+    padding:10px;
     margin:0 0 5px;
     font-size:15px;
 }
@@ -102,10 +102,13 @@ fieldset {
         float:left;
         margin:0;
         margin-bottom:30px;
+        text-align:center;
 
     }
     .titel{
         font-size:30px;
+        text-align:center;
+        margin-left:92px;
     }
     #contact{
         width:80%;
@@ -116,8 +119,6 @@ fieldset {
         margin-top: 30px;
         margin-bottom: 170px;
     }
-    #contact button{
-        width:100%;
-    }
+
 
 }
