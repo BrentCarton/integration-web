@@ -38,7 +38,7 @@ main{
 .boeken h3{
     text-align: left;
 }
-.kleuter{
+.kleuter, .lagereschool{
     text-align: center;
 }
 @media screen and (min-width: 768px){
