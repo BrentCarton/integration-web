@@ -57,7 +57,7 @@
 @media screen and (min-width: 1024px){
     .side{
         position: fixed;
-        top: 115px;
+        top: 150px;
         right: 50px;
     }
     
