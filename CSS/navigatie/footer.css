@@ -8,7 +8,7 @@ footer{
     float:left;
 }
 
-a, p {
+footer a, footer p {
     color: white;
 }
 

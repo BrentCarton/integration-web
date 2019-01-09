@@ -2,8 +2,14 @@ body{
     background-color: #E8F7F5;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+* {
+    color: #3B635B;
+}
+
+a {
+    transition: .2s;
+}
+
+a:hover {
+    color: #F7C954; 
 }
