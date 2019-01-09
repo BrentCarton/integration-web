@@ -46,6 +46,9 @@ section:last-of-type{
     padding: 0px 25px;
 }
 
+.wrapper{
+    margin: 0px 100px;
+}
 
 /* CLEARFIX */
 .clearfix::after {

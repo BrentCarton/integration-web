@@ -1,109 +1,39 @@
-/*home1*/
-.titelhome {
-    text-align: center;
-    margin-top: 46px;
-    color: #515C4B;
-    font-size: 40px;
+.afmontage, .afmontage img {
+    width: 100%;
+    margin: auto;
 }
 
-.afmontage {
-    margin-left: 8%;
+.getuigenis {
+    width: 45%;
+    float: left;
 }
 
-/*home2*/
+.getuigenis:nth-of-type(2){
+    margin-left: 2%;
+}
+
+.getuigenis img {
+    width: 45%;
+    float: left;
+}
+
+.getuigenis p, .getuigenis h3 {
+    width: 45%;
+    float: right;
+}
+
 .geel {
-    margin-left: 8%;
-    width: 1250px;
+    width: 100%;
+    margin: auto;
     background-color: #F7C954;
-    height: 300px;
-    margin-top: -2%;
-
+    margin-top: -5px;
+    padding: 50px;
+    box-sizing: border-box;
 }
 
-.foto1 {
-    width: 40vh;
-    margin-left: 1%;
-    padding-top: 2%;
-}
-
-.geel > .getuig2 img {
-    padding-top: 3%;
-    width: 40vh;
-    margin-left: 4%;
-}
-
-.getuig2 > .flo {
-    color: #515C4B;
-    margin-top: -13%;
-    font-size: 16px;
-}
-
-.getuig2 > p {
-    position: absolute;
-    margin-right: 51%;
-    color: black;
-    margin-left: 25%;
-    margin-top: -11%;
-    font-size: 12px;
-}
-}
-
-.foto2 {
-    width: 40vh;
-    margin-left: 1%;
-    padding-top: 2%;
-}
-
-.geel > .getuig1 img {
-    width: 27vh;
-    margin-left: 55%;
-    margin-top: -16%;
-    margin-bottom: 10%;
-}
-
-.getuig1 > .sarah {
-    color: #515C4B;
-    margin-top: -21%;
-    font-size: 16px;
-}
-
-.getuig1 > p {
-    position: absolute;
-    margin-right: 15%;
-    color: black;
-    margin-left: 61%;
-    margin-top: -19%;
-    font-size: 12px;
-}
-
-/*home3*/
-.blauw {
-    margin-left: 8%;
-    width: 84%;
-    background-color: #E8F7F4;
-    height: 300px;
-    padding-bottom: 3%;
-
-}
-
-.blauw > .titelinleiding {
-    color: #515C4B;
-    font-size: 22px;
-    margin-left: 23%;
-}
-
-.inleiding {
-    font-size: 12px;
-    color: black;
-    margin-right: 47%;
-    margin-left: 23%;
-}
-
-.blauw > img {
-    width: 40vh;
-    width: 40vh;
-    margin-left: 55%;
-    margin-top: -20%;
+.inleiding{
+    width: 70%;
+    margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
