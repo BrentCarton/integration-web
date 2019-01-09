@@ -7,21 +7,32 @@ body{
 }
 
 /*Contact Info*/
-
+.contactinfo{
+    text-align:center;
+    margin:0;
+    width:100%;
+}
 .titel{
     text-align: center;
     margin-top: 80px;
     margin-right: 580px
 }
 .tekst{
-    margin-left: 10px;
+    display: inline-block;
     font-size: 15px;
     color:black;
-    margin-left: 420px;
-    margin-right: 34px;
+    text-align:left;
+    margin-left:-24%;
+
 }
 .tel{
     color:black;
+}
+.mapouter{
+    display: inline-block;
+    float:right;
+    margin-top:-15%;
+    margin-right:30%;
 }
 
 .fax{
@@ -80,15 +91,15 @@ fieldset {
     cursor:pointer;
     width:45%;
     border:none;
-    background:white;
-    color:black;
+    background:#3B635B;
+    color:white;
     padding:10px;
     margin:0 0 5px;
     font-size:15px;
 }
 
 #contact button[type="submit"]:hover {
-    background:#e8f7f5;
+    background:darkgreen;
     -webkit-transition:background 0.3s ease-in-out;
     -moz-transition:background 0.2s ease-in-out;
     transition:background-color 0.2s ease-in-out;
@@ -98,6 +109,9 @@ fieldset {
 
 
 @media only screen and (max-width: 768px){
+    .mapouter{
+        margin-right:-0;
+    }
     .tekst{
         float:left;
         margin:0;
@@ -118,6 +132,9 @@ fieldset {
         margin-left: 0px;
         margin-top: 30px;
         margin-bottom: 170px;
+    }
+    .footer{
+        position: absolute;
     }
 
 

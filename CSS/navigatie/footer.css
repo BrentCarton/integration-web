@@ -5,7 +5,6 @@ footer{
     width: 100%;
     background-color: #3B635B;
     color: white;
-    float:left;
 }
 
 footer a, footer p {
@@ -55,24 +54,31 @@ footer p {
     background-position: 20px 20px;
 }
 
-
-.websites{
-    color:white;
+.contact, .number {
+    float:left;
+    margin-left: 50px;
 }
 
-@media only screen and (min-width: 670px){
-    .social {
-        margin-top: 17px;
-    }
+.social {
+    margin-top: 17px;
+}
+.websites{
+    color:white;
+    float: right;
+    margin-right: 50px;
+}
 
-    .contact, .number {
-        float:left;
-        margin-left: 50px;
+@media only screen and (max-width: 768px){
+    footer{
+        position: relative;
+        height: 170px;
     }
-
+    
+    .websites, .number{
+        margin-right: 0px;
+    }
+    
     .websites{
-        float: right;
-        margin-right: 50px;
+        float: left;
     }
-
 }

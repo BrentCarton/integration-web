@@ -52,37 +52,42 @@ section:last-of-type{
 
 /* CLEARFIX */
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 @media only screen and (max-width: 786px){
+    .wrapper {
+        margin: 0px 25px;
+    }
+    
     .columns{
         margin: 10px 25px;
     }
-    
+
     .twocolumn {
         width: 100%;
     }
-    
+
     .twocolumn img {
         clear: both;
         width: 100%;
         margin-bottom: 10px;
     }
-    
+
     .twocolumn h2 {
         margin-left: 25px;
     }
-    
+
     .twocolumn p, .twocolumn h3{
         width: 100%;
         clear: both;
         padding: 0px;
     }
-    
+
     .title {
-    margin-top: 10px;
-}
+        margin-top: 100px;
+    }
+    
 }
