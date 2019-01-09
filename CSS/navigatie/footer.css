@@ -8,11 +8,12 @@ footer{
     float:left;
 }
 
-a, p {
+footer a, footer p {
     color: white;
+    transition: 0s;
 }
 
-p {
+footer p {
     margin-left: 50px;
     float: left;
 }
@@ -63,7 +64,7 @@ p {
     .social {
         margin-top: 17px;
     }
-    
+
     .contact, .number {
         float:left;
         margin-left: 50px;

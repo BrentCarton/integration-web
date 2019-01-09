@@ -2,6 +2,7 @@
 @import url(basis/typografie.css);
 @import url(basis/basis.css);
 @import url(basis/fonts.css);
+@import url(basis/layout.css);
 
 /*NAVIGATIE*/
 @import url(navigatie/header.css);
@@ -10,7 +11,5 @@
 
 /*PAGINAS*/
 @import url(paginas/home.css);
-@import url(paginas/links.css);
-@import url(paginas/tips.css);
 @import url(paginas/contact.css);
 @import url(paginas/mediaboeken.css);

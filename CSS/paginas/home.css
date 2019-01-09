@@ -1,103 +1,119 @@
-.titel {
-    margin-left: 35%;
-    padding-top: 2%;
+.afmontage, .afmontage img {
+    width: 100%;
+    margin: auto;
 }
 
-.afmontage {
-    width: 100vh;
-    margin-left: 8%;
+.getuigenis {
+    width: 45%;
+    float: left;
+}
+
+.getuigenis:nth-of-type(2){
+    margin-left: 2%;
+}
+
+.getuigenis img {
+    width: 45%;
+    float: left;
+}
+
+.getuigenis p, .getuigenis h3 {
+    width: 45%;
+    float: right;
 }
 
 .geel {
-    margin-left: 8%;
-    width: 1250px;
+    width: 100%;
+    margin: auto;
     background-color: #F7C954;
-    height: 300px;
-    margin-top: -2%;
-
+    margin-top: -5px;
+    padding: 50px;
+    box-sizing: border-box;
 }
 
-.foto1 {
-    width: 40vh;
-    margin-left: 1%;
-    padding-top: 2%;
+.inleiding{
+    width: 70%;
+    margin: auto;
 }
 
-.geel > .getuig2 img {
-    padding-top: 3%;
-    width: 40vh;
-    margin-left: 4%;
-}
+@media only screen and (max-width: 600px) {
+    /*home1*/
 
-.getuig2 > .flo {
-    color: #515C4B;
-    margin-top: -13%;
-    font-size: 16px;
-}
+    .afmontage > img {
+        width: 98%;
+        margin-left:2%;
+        
+    }
 
-.getuig2 > p {
-    position: absolute;
-    margin-right: 51%;
-    color: black;
-    margin-left: 25%;
-    margin-top: -11%;
-    font-size: 12px;
-}
-}
+    .titelhome {
+        margin-top: 105px;
+        font-size: 38px;
+    }
 
-.foto2 {
-    width: 40vh;
-    margin-left: 1%;
-    padding-top: 2%;
-}
+    /*home2*/
 
-.geel > .getuig1 img {
-    width: 27vh;
-    margin-left: 55%;
-    margin-top: -16%;
-    margin-bottom: 10%;
-}
+    .geel {
+        margin-left: 10%;
+        width: 80%;
+        height: 112vh;
 
-.getuig1 > .sarah {
-    color: #515C4B;
-    margin-top: -21%;
-    font-size: 16px;
-}
+    }
 
-.getuig1 > p {
-    position: absolute;
-    margin-right: 15%;
-    color: black;
-    margin-left: 61%;
-    margin-top: -19%;
-    font-size: 12px;
-}
+    .geel > .getuig2 img {
+        padding-top: 0%;
+        margin-left: 0%;
+        width: 100%;
+    }
 
-.blauw {
-    margin-left: 8%;
-    width: 168vh;
-    background-color: #E8F7F4;
-    height: 300px;
-    margin-top: -2%;
-    padding-bottom: 3%;
+    .getuig2 > .flo {
+        margin-top: 3%;
+        font-size: 16px;
+    }
 
-}
+    .getuig2 > p {
+        position: absolute;
+        margin-right: 16%;
+        margin-left: 3%;
+        margin-top: 10%;
+        font-size: 12px;
+    }
 
-.blauw > .titelinleiding {
-    color: #515C4B;
-    font-size: 22px;
-    margin-left: 23%;
-}
+    .geel > .getuig1 img {
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 70%;
 
-.inleiding {
-    font-size: 12px;
-    color: black;
-    margin-right: 47%;
-    margin-left: 23%;
-}
+    }
 
-.blauw > img {
-    width: 40vh;
-        margin-left: 55%;
-    margin-top: -20%;
+    .getuig1 > p {
+        margin-right: 19%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    .getuig1 > .sarah {
+        margin-top: -5%;
+        margin-left: 3%;
+    }
+
+    /*home3*/
+    .blauw > .titelinleiding {
+        margin-left: 5%;
+    }
+
+    .inleiding {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .blauw {
+        padding-bottom: 95%;
+
+    }
+
+    .blauw > img {
+        margin-left: 3%;
+        padding-top: 22%;
+        width: 93%;
+    }
 }
