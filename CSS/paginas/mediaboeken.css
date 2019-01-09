@@ -35,7 +35,7 @@ main{
     font-size: 10px;
     text-decoration: underline;
 }
-h3{
+.boeken h3{
     text-align: left;
 }
 .kleuter{
@@ -45,15 +45,15 @@ h3{
     .gallery{
         text-align: center;
     }
-    h1,h3{
+    .boeken h1, .boeken h3{
         margin-left: 10%;
     }
 }
 @media screen and (min-width: 1024px){
-    h3{
+    .boeken h3{
         margin-left: 30%
     }
-    h1{
+    . boeken h1{
         margin-top: 10%;
         margin-left: 20%;
     }
