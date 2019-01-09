@@ -1,13 +1,16 @@
-.titel {
-    margin-left: 35%;
-    padding-top: 2%;
+/*home1*/
+.titelhome {
+    text-align: center;
+    margin-top: 46px;
+    color: #515C4B;
+    font-size: 40px;
 }
 
 .afmontage {
-    width: 100vh;
     margin-left: 8%;
 }
 
+/*home2*/
 .geel {
     margin-left: 8%;
     width: 1250px;
@@ -73,12 +76,12 @@
     font-size: 12px;
 }
 
+/*home3*/
 .blauw {
     margin-left: 8%;
-    width: 168vh;
+    width: 84%;
     background-color: #E8F7F4;
     height: 300px;
-    margin-top: -2%;
     padding-bottom: 3%;
 
 }
@@ -98,6 +101,89 @@
 
 .blauw > img {
     width: 40vh;
-        margin-left: 55%;
+    width: 40vh;
+    margin-left: 55%;
     margin-top: -20%;
+}
+
+@media only screen and (max-width: 600px) {
+    /*home1*/
+
+    .afmontage > img {
+        width: 98%;
+        margin-left:2%;
+        
+    }
+
+    .titelhome {
+        margin-top: 105px;
+        font-size: 38px;
+    }
+
+    /*home2*/
+
+    .geel {
+        margin-left: 10%;
+        width: 80%;
+        height: 112vh;
+
+    }
+
+    .geel > .getuig2 img {
+        padding-top: 0%;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .getuig2 > .flo {
+        margin-top: 3%;
+        font-size: 16px;
+    }
+
+    .getuig2 > p {
+        position: absolute;
+        margin-right: 16%;
+        margin-left: 3%;
+        margin-top: 10%;
+        font-size: 12px;
+    }
+
+    .geel > .getuig1 img {
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 70%;
+
+    }
+
+    .getuig1 > p {
+        margin-right: 19%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    .getuig1 > .sarah {
+        margin-top: -5%;
+        margin-left: 3%;
+    }
+
+    /*home3*/
+    .blauw > .titelinleiding {
+        margin-left: 5%;
+    }
+
+    .inleiding {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .blauw {
+        padding-bottom: 95%;
+
+    }
+
+    .blauw > img {
+        margin-left: 3%;
+        padding-top: 22%;
+        width: 93%;
+    }
 }
