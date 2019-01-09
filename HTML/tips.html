@@ -28,10 +28,10 @@
         </header>
         <main>
             <nav class="side"><ul>
-                <li><a href="#kleuters" class="Categorie1">Kleuters</a></li>
-                <li><a href="#lagereschool" class="Categorie2">Lagere school</a></li>
-                <li><a href="#adolescenten" class="Categorie3">Adolescenten</a></li>
-                <li><a href="#informatief" class="Categorie4">Informatief</a></li>
+                <li><a href="#kleuters" class="Categorie1" onclick="activeColor(this)">Kleuters</a></li>
+                <li><a href="#lagereschool" class="Categorie2" onclick="activeColor(this)">Lagere school</a></li>
+                <li><a href="#adolescenten" class="Categorie3" onclick="activeColor(this)">Adolescenten</a></li>
+                <li><a href="#informatief" class="Categorie4" onclick="activeColor(this)">Informatief</a></li>
                 </ul></nav>
             <h1 class="title">Tips om kinderen te helpen</h1>
             <section id="kleuters" class="columns">
@@ -218,5 +218,14 @@
             </ul>
             <p class="websites">Onze websites: <a href="http://www.pallialine.be">pallialine.be</a> - <a href="http://www.palliatief.be/template.asp?f=index.htm">palliatief.be</a></p>
         </footer>
+        <script type="text/javascript">
+        function activeColor(elem) {
+            var a = document.getElementsByTagName('a')
+            for (i = 0; i < a.length; i++) {
+                a[i].classList.remove('active')
+            }
+            elem.classList.add('active');
+        }
+        </script>
     </body>
 </html>

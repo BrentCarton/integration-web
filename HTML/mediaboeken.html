@@ -27,14 +27,15 @@
             </nav>
         </header>
         <main>
-            <nav class="side"><ul>
-                <li><a href="#" class="Categorie1">Kleuter</a></li>
-                <li><a href="#" class="Categorie2">Lagere school</a></li>
+            <nav class="side" id="#Top"><ul>
+                <li><a href="#kleuter" class="Categorie1" onclick="activeColor(this)" >Kleuter</a></li>
+                <li><a href="#" class="Categorie2" onclick="activeColor(this)">Lagere school</a></li>
                 <li><a href="#" class="Categorie3">Adolescenten</a></li>
                 <li><a href="#" class="Categorie4">Informatief</a></li>
                 </ul></nav>
             <h1>Boeken en multimedia</h1>
-            <h2>Kleuter</h2>
+            <div class="kleuter">
+            <h2 id="kleuter" >Kleuter</h2>
             <h3>Boeken</h3>
             <div class="gallery">
                 <figure>
@@ -64,6 +65,8 @@
                     </figcaption>
                 </figure>
             </div>
+            <a href="#Top" class="top">Terug naar boven.</a>
+            </div>
         </main>
         <footer>
             <p class="contact"><a href="contact.html">Contacteer ons</a></p>
@@ -74,5 +77,14 @@
             </ul>
             <p class="websites">Onze websites: <a href="http://www.pallialine.be">pallialine.be</a> - <a href="http://www.palliatief.be/template.asp?f=index.htm">palliatief.be</a></p>
         </footer>
+        <script type="text/javascript">
+        function activeColor(elem) {
+            var a = document.getElementsByTagName('a')
+            for (i = 0; i < a.length; i++) {
+                a[i].classList.remove('active')
+            }
+            elem.classList.add('active');
+        }
+        </script>
     </body>
 </html>
