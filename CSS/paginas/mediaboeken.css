@@ -2,7 +2,8 @@
     overflow: auto;
     white-space: nowrap;
     height: 480px;
-    padding-left: 7%;
+    padding-left: 5%;
+    text-align: left;
 }
 .gallery h4{
     color: #3B635B;
@@ -26,8 +27,34 @@
     padding-bottom: 30px;
 }
 main{
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
-.multimedia{
-    margin: 0px;
+
+.top{
+    color: black;
+    font-size: 10px;
+    text-decoration: underline;
+}
+h3{
+    text-align: left;
+}
+.kleuter{
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+    .gallery{
+        text-align: center;
+    }
+    h1,h3{
+        margin-left: 10%;
+    }
+}
+@media screen and (min-width: 1024px){
+    h3{
+        margin-left: 30%
+    }
+    h1{
+        margin-top: 10%;
+        margin-left: 20%;
+    }
 }
