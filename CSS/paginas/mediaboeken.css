@@ -12,34 +12,33 @@
 .gallery img{
     height: 35vh;
 }
+
 .gallery figure{
     margin: 0px;
     display: inline-block;
     margin-right: 10px;
 }
+
 .gallery p{
     color: black;
     font-size: 12px;
     margin: 0px;
 }
+
 .gallery .beer{
     height: 27vh;
     padding-bottom: 30px;
 }
 
-.top{
-    color: black;
-    font-size: 10px;
-    text-decoration: underline;
-}
-
-.kleuter, .lagereschool{
+.boekentitel{
     text-align: center;
 }
-.boeken, .multimedia{
+
+.tussentitel{
     text-align: left;
-    margin-left: 10px
+    margin-left: 100px
 }
+
 @media screen and (min-width: 768px){
     .gallery{
         text-align: center;
@@ -48,6 +47,7 @@
         margin-left: 10%;
     }
 }
+
 @media screen and (min-width: 1024px){
     .boeken h3{
         margin-left: 30%
