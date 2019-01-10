@@ -1,8 +1,3 @@
-*{
-    font-family: 'Noto Sans', sans-serif;
-}
-
-
 /*Contact Info*/
 .titel{
     width:100%;
@@ -13,10 +8,8 @@
     width:100%;
     font-size: 15px;
     text-align: center;
-
-
-
 }
+
 .tel{
     color:black;
 }
@@ -28,8 +21,6 @@ iframe{
     text-align: center;
     padding-top:20px;
     padding-bottom:20px;
-
-
 }
 
 
@@ -39,6 +30,10 @@ iframe{
 
 
 /* Contact Form*/
+
+.container {
+    margin-bottom: 50px;
+}
 
 #contact {
     box-sizing: border-box;
@@ -107,19 +102,22 @@ fieldset {
 
 
 }
+
 @media screen and (min-width: 768px){
 
 
 
 }
+
 @media screen and (min-width: 1024px){
     .container{
         margin:auto;
         width:50%;
         margin-top:50px;
-
+        margin-bottom: 100px;
 
     }
+    
     .tekst{
         text-align: left;
         display:inline-block;

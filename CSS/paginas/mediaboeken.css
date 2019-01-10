@@ -14,16 +14,19 @@
 .gallery img{
     height: 35vh;
 }
+
 .gallery figure{
     margin: 0px;
     display: inline-block;
     margin-right: 10px;
 }
+
 .gallery p{
     color: black;
     font-size: 12px;
     margin: 0px;
 }
+
 .gallery .beer{
     height: 27vh;
     padding-bottom: 30px;
