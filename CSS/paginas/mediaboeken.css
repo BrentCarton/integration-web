@@ -36,10 +36,13 @@
     color: black;
     font-size: 10px;
     text-decoration: underline;
+    margin-left: 0px;
 }
 
 .kleuter,.lagereschool,.adolescenten{
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .lagereschool{
     background-color: white;
@@ -66,5 +69,11 @@ figcaption{
     }
     .books{
         margin-bottom: 75px;
+    }
+    .gallery figure{
+        margin: 0 100px;
+    }
+    .gallery{
+        padding-left: 0;
     }
 }
