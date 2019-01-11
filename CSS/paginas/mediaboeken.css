@@ -47,9 +47,19 @@
 .lagereschool,.informatief{
     background-color: white;
 }
-figcaption{
-    text-align: left;
+
+figure {
+    width: 80vw;
+    height: 60vh;
+    vertical-align: top;
 }
+
+figure figcaption p, figure figcaption h4{
+    text-align: left;
+    width: 100%;
+    white-space: normal;
+}
+
 .boeken, .multimedia{
    text-align: left; 
     margin-left: 15px;
@@ -60,6 +70,11 @@ figcaption{
     }
 }
 @media only screen and (min-width: 1024px){
+    figure {
+        width: 20vw;
+        height: 55vh;
+    }
+    
     .boeken, .multimedia{
         margin-left: 100px;
     }
