@@ -63,6 +63,7 @@
     
     .side li{
         display: list-item;
+        margin-bottom: 15px;
     }
     .side ul{
         text-align: left;
