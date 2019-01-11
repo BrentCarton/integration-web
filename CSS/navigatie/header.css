@@ -52,9 +52,14 @@ header li a:hover {
     margin-top: -45px;
 }
 
+#current #subnav1 {
+    padding-bottom: 0px;
+}
+
 #subnav1 {
     display: none;
     width: 300px;
+    padding-bottom: 20px;
 }
 
 #subnav1:target {
