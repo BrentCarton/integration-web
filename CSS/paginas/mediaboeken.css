@@ -39,12 +39,12 @@
     margin-left: 0px;
 }
 
-.kleuter,.lagereschool,.adolescenten{
+.kleuter,.lagereschool,.adolescenten,.informatief{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.lagereschool{
+.lagereschool,.informatief{
     background-color: white;
 }
 figcaption{
