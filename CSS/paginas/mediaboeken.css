@@ -48,37 +48,33 @@
     background-color: white;
 }
 
-figure {
+.gallery figure {
     width: 80vw;
     height: 60vh;
     vertical-align: top;
 }
 
-figure figcaption p, figure figcaption h4{
+.gallery figure figcaption p, figure figcaption h4{
     text-align: left;
     width: 100%;
     white-space: normal;
 }
 
 .boeken, .multimedia{
-   text-align: left; 
+    text-align: left; 
     margin-left: 15px;
 }
+
 @media only screen and (min-width: 768px){
     .gallery{
         text-align: center;
     }
 }
 @media only screen and (min-width: 1024px){
-    figure {
-        width: 20vw;
-        height: 55vh;
-    }
-    
     .boeken, .multimedia{
         margin-left: 100px;
     }
-.boeken-multimedia{
+    .boeken-multimedia{
         margin-top: 2%;
         margin-left: 0;
     }
@@ -87,6 +83,8 @@ figure figcaption p, figure figcaption h4{
     }
     .gallery figure{
         margin: 0 100px;
+        width: 20vw;
+        height: 55vh;
     }
     .gallery{
         padding-left: 0;
