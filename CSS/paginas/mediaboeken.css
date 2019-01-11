@@ -5,7 +5,7 @@
     text-align: left;
 }
 .boeken-multimedia{
-    margin-left: 15px; 
+    text-align: center;
 }
 .gallery h4{
     color: #3B635B;
@@ -64,8 +64,8 @@ figcaption{
         margin-left: 100px;
     }
 .boeken-multimedia{
-        margin-top: 10%;
-        margin-left: 20%;
+        margin-top: 2%;
+        margin-left: 0;
     }
     .books{
         margin-bottom: 75px;
