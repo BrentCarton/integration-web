@@ -21,6 +21,10 @@
     margin: 0px;
     display: inline-block;
     margin-right: 10px;
+    width: 80vw;
+    height: 75vh;
+    vertical-align: top;
+    margin-right: 10px;
 }
 
 .gallery p{
@@ -31,11 +35,17 @@
     height: 27vh;
     padding-bottom: 30px;
 }
-
+.kleuter img, .lagereschool img{
+    width: 99%;
+}
+.amadoris img{
+    height: 31vh;
+}
 .top{
     font-size: 12px;
     text-align: center;
     width: 100%;
+    margin-left: 0px;
 }
 
 .kleuter,.lagereschool,.adolescenten,.informatief{
@@ -45,12 +55,6 @@
 }
 .lagereschool,.informatief{
     background-color: white;
-}
-
-.gallery figure {
-    width: 80vw;
-    height: 65vh;
-    vertical-align: top;
 }
 
 .gallery figure figcaption p, figure figcaption h4{
