@@ -49,6 +49,9 @@ section:last-of-type{ /* dit geeft het laatste stuk van de pagina wat 'ademruimt
 .wrapper{
     margin: 0px 100px;
 }
+.lagereschool_t, .informatief_t{
+    background-color: white;
+}
 
 /* mediaqueries voor mobile */
 @media only screen and (max-width: 768px){
