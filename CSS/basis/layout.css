@@ -1,6 +1,5 @@
 
 .title {
-    font-size: 30px;
     margin-top: 100px;
     width: 100%;
     text-align: center;
@@ -35,7 +34,6 @@ section:last-of-type{
 
 .twocolumn h2{
     margin-left: 50px;
-    font-size: 20px;
 }
 
 .twocolumn p, .twocolumn h3 {
@@ -48,13 +46,6 @@ section:last-of-type{
 
 .wrapper{
     margin: 0px 100px;
-}
-
-/* CLEARFIX */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 @media only screen and (max-width: 786px){

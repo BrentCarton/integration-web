@@ -91,7 +91,7 @@ footer p {
         height: 190px;
         text-align: center;
     }
-    
+
     .websites, .number{
         margin-right: 0px;
         text-align: left;
@@ -113,5 +113,11 @@ footer p {
     }
     .ehb{
         font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    footer{
+        height: 75px;
     }
 }

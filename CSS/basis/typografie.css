@@ -2,14 +2,21 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
 footer p{
     font-size: 14px;
 }
 
+p {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 30px;
+}
 
 @media only screen and (min-width: 670px){
     footer p{
