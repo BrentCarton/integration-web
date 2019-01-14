@@ -1,9 +1,11 @@
+/* de fotobalk */
 .afmontage,
 .afmontage img {
     width: 100%;
     margin: auto;
 }
 
+/* de getuigenissen */
 .getuigenis {
     width: 45%;
     float: left;
@@ -34,6 +36,7 @@
     box-sizing: border-box;
 }
 
+/* de inleiding */
 .inleiding {
     width: 65%;
     margin: auto;
@@ -52,21 +55,14 @@
     width: 45%;
 }
 
+
+/* mediaquery mobile */
 @media only screen and (max-width: 768px) {
-    .inleiding {
-        width: 95%;
-    }
-    
-    #inleiding p, #inleiding h3 {
-        width: 100%;
-        box-sizing: border-box;
+    .title {
+        margin-top: 28px;
     }
 
-    #inleiding img {
-        width: 100%;
-    }
-
-
+    /* de getuigenissen */
     .getuigenis:nth-of-type(2) {
         margin-left: 0%;
     }
@@ -89,17 +85,24 @@
         padding: 25px;
     }
 
-    .title {
-        margin-top: 28px;
+    /* de inleiding */
+    .inleiding {
+        width: 95%;
     }
 
+    #inleiding p, #inleiding h3 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #inleiding img {
+        width: 100%;
+    }
 }
 
+/* mediaquery tablet */
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-    .inleiding {
-        width: 70%;
-    }
-
+    /* getuigenissen */
     .getuigenis img{
         width:30%;
     }
@@ -115,6 +118,11 @@
 
     .getuigenis p, .getuigenis h3 {
         width: 58%;
+    }
+
+    /* inleiding */
+    .inleiding {
+        width: 70%;
     }
 }
 

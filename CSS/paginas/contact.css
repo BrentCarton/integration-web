@@ -82,18 +82,7 @@ fieldset {
     color:#3B635B;
 }
 
-#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
-
-
-
-}
-
-@media screen and (min-width: 768px){
-
-
-
-}
-
+/* mediaquery desktop */
 @media screen and (min-width: 1024px){
     .container{
         margin:auto;
@@ -125,6 +114,4 @@ fieldset {
         margin:auto;
         width:50%;
     }
-
-
 }

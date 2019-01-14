@@ -1,3 +1,4 @@
+/* gallerij van boeken */
 .books h2 {
     text-align: center;
 }
@@ -41,20 +42,11 @@
 .amadoris img{
     height: 31vh;
 }
-.top{
-    font-size: 12px;
-    text-align: center;
-    width: 100%;
-    margin-left: 0px;
-}
 
 .kleuter,.lagereschool,.adolescenten,.informatief{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-.lagereschool,.informatief, .jongeren{
-    background-color: white;
 }
 
 .gallery figure figcaption p, figure figcaption h4{
@@ -68,12 +60,28 @@
     margin-left: 25px;
 }
 
+/* geef elke tweede leeftijdsgroep een witte achtergrond */
+.lagereschool,.informatief, .jongeren{
+    background-color: white;
+}
+
+/* link om naar de top te gaan */
+.top{
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+/*mediaquery tablet */
 @media only screen and (min-width: 768px){
     .gallery{
         text-align: center;
     }
 }
 
+/* mediaquery desktop */
 @media only screen and (min-width: 1024px){
     .books h3{
         margin-left: 100px;

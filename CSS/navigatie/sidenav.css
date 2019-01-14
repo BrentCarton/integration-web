@@ -12,6 +12,7 @@
     margin: 0 1%;
     text-align: center;
 }
+/* de vlindertjes in verschillende groottes */
 .Categorie1::before{
     content: "\e900";
     font-family: "icomoon";
@@ -50,8 +51,6 @@
 }
 .side a{
     text-decoration: none;
-    color: #3B635B;
-    transition: .2s;
 }
 
 /* mediaquery voor desktop */
