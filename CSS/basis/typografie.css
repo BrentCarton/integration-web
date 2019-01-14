@@ -1,3 +1,5 @@
+
+/*deze code zorgt ervoor dat de verschillende soorten tekst (header, leestekst, etc) overal dezelfde grootte's heeft */
 *{
     font-family: 'Noto Sans', sans-serif;
 }
@@ -18,7 +20,8 @@ h2 {
     font-size: 30px;
 }
 
-@media only screen and (min-width: 670px){
+/* mediaquery voor desktop */
+@media only screen and (min-width: 678px){
     footer p{
         font-size: 16px;
     }

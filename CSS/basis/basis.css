@@ -3,10 +3,12 @@ body{
     margin: 0;
 }
 
+/* dit zorgt dat alle tekst dezelfde kleur heeft*/
 * {
     color: #3B635B;
 }
 
+/* code voor de links */
 a {
     transition: .2s;
     text-decoration: underline;
@@ -16,10 +18,12 @@ a:hover {
     color: #F7C954; 
 }
 
+/* dit is de code voor de 'terug naar boven' link */
 .top{
  margin-left: 200px;
 }
 
+/* mediaqueries voor mobile */
 @media only screen and (max-width: 768px){
     .top{
         margin-left: 25px;
