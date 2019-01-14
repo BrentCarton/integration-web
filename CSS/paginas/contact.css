@@ -1,18 +1,9 @@
 /*Contact Info*/
-.titel{
-    width:100%;
-    text-align: center;
-    margin-top: 80px;
-}
 .tekst{
     width:100%;
-    font-size: 15px;
     text-align: center;
 }
 
-.tel{
-    color:black;
-}
 iframe{
     width:100%;
 }
@@ -23,13 +14,7 @@ iframe{
     padding-bottom:20px;
 }
 
-
-.fax{
-    color:black;
-}
-
-
-/* Contact Form*/
+/* Contact Form */
 
 .container {
     margin-bottom: 50px;

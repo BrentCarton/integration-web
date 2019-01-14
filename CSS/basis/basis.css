@@ -25,3 +25,12 @@ a:hover {
         margin-left: 25px;
     }
 }
+
+
+
+/* CLEARFIX */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
