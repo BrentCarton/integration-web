@@ -8,6 +8,7 @@
 /* dit is een algemene twee-kolommen layout */
 .columns{
     margin: 10px 100px 0px; 
+    padding-bottom: 10px;
 }
 
 .twocolumn img {
