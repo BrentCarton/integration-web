@@ -72,7 +72,7 @@ fieldset {
     padding:10px;
     margin:0 0 5px;
     font-size:15px;
-       -webkit-transition:background 0.3s ease-in-out;
+    -webkit-transition:background 0.3s ease-in-out;
     -moz-transition:background 0.2s ease-in-out;
     transition:background-color 0.2s ease-in-out;
 }
@@ -89,9 +89,8 @@ fieldset {
         width:50%;
         margin-top:50px;
         margin-bottom: 100px;
-
     }
-    
+
     .tekst{
         text-align: left;
         display:inline-block;
@@ -99,13 +98,13 @@ fieldset {
         margin:0;
     }
     .map{
-         display:inline-block;
+        display:inline-block;
         text-align:right;
         width:50%;
         margin:0;
         padding:0;
-        
-        
+
+
     }
     iframe{
         width:100%;

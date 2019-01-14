@@ -30,15 +30,15 @@ section:last-of-type{ /* dit geeft het laatste stuk van de pagina wat 'ademruimt
     margin-bottom: 100px;
 }
 
-.twocolumn h1{
+.twocolumn h2{
     margin-left: 0px;
 }
 
-.twocolumn h2{
+.twocolumn h3{
     margin-left: 50px;
 }
 
-.twocolumn p, .twocolumn h3 {
+.twocolumn p, .twocolumn h4 {
     margin: 0px;
     width: 60%;
     float: right;
