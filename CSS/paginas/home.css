@@ -13,10 +13,12 @@
     margin-left: 2%;
 }
 
+
 .getuigenis img {
     width: 45%;
     float: left;
 }
+
 
 .getuigenis p,
 .getuigenis h3 {
@@ -38,25 +40,8 @@
     margin: auto;
 }
 
-.twocolumn p,
-.twocolumn h3 {
-    margin: 0px;
-    width: 60%;
-    box-sizing: border-box;
-    padding: 0px 25px;
-    margin-left: 64%;
-    margin-top: 2%;
-}
 
-.twocolumn img {
-    width: 62%;
-    float: left;
-    margin-top: 6%;
-    margin-left: -6%;
-}
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .getuigenis {
         width: 100%;
     }
@@ -75,18 +60,13 @@
         padding: 25px;
     }
 
-    .twocolumn img {
-        width: 144%;
-        margin-bottom: 10px;
-        margin-left: -22%;
-
-    }
 
 }
 
-@media only screen and (min-width: 768px) {
+
+@media only screen and (max-width: 1024px) {
     .getuigenis img {
-        width: 90%;
+        width: 50%;
         margin-left: 13%;
     }
 
@@ -101,3 +81,4 @@
         font-size: 45px;
     }
 }
+
