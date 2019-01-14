@@ -20,6 +20,7 @@
 }
 
 
+
 .getuigenis p,
 .getuigenis h3 {
     width: 45%;
@@ -60,16 +61,14 @@
         padding: 25px;
     }
 
-
 }
 
 
 @media only screen and (max-width: 1024px) {
-    .getuigenis img {
-        width: 30%;
-        margin-left: 13%;
+ [alt="foto van Florian"] {
+width: 35%;
+  
     }
-
     .getuigenis p,
     .getuigenis h3 {
         width: 87%;
@@ -80,5 +79,7 @@
         margin-top: 28px;
         font-size: 45px;
     }
+    .getuigenis p, .getuigenis h3 {
+    width: 58%;
 }
 
