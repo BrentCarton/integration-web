@@ -1,4 +1,5 @@
-.afmontage, .afmontage img {
+.afmontage,
+.afmontage img {
     width: 100%;
     margin: auto;
 }
@@ -8,7 +9,7 @@
     float: left;
 }
 
-.getuigenis:nth-of-type(2){
+.getuigenis:nth-of-type(2) {
     margin-left: 2%;
 }
 
@@ -17,7 +18,8 @@
     float: left;
 }
 
-.getuigenis p, .getuigenis h3 {
+.getuigenis p,
+.getuigenis h3 {
     width: 45%;
     float: right;
 }
@@ -31,25 +33,71 @@
     box-sizing: border-box;
 }
 
-.inleiding{
+.inleiding {
     width: 70%;
     margin: auto;
 }
 
-@media only screen and (max-width: 768px) {
+.twocolumn p,
+.twocolumn h3 {
+    margin: 0px;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 0px 25px;
+    margin-left: 64%;
+    margin-top: 2%;
+}
+
+.twocolumn img {
+    width: 62%;
+    float: left;
+    margin-top: 6%;
+    margin-left: -6%;
+}
+
+
+@media only screen and (max-width: 600px) {
     .getuigenis {
         width: 100%;
     }
-    
-    .getuigenis img, .getuigenis p, .getuigenis h3 {
+
+    .getuigenis img,
+    .getuigenis p,
+    .getuigenis h3 {
         width: 100%;
     }
-    
+
     .getuigenis h3 {
         margin-bottom: -10px;
     }
-    
+
     .geel {
         padding: 25px;
+    }
+
+    .twocolumn img {
+        width: 144%;
+        margin-bottom: 10px;
+        margin-left: -22%;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .getuigenis img {
+        width: 90%;
+        margin-left: 13%;
+    }
+
+    .getuigenis p,
+    .getuigenis h3 {
+        width: 87%;
+        float: right;
+    }
+
+    .title {
+        margin-top: 28px;
+        font-size: 45px;
     }
 }
