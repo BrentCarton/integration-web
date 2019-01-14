@@ -1,3 +1,4 @@
+/* dit is de code voor de footer: op desktop is deze fixed */
 footer{
     position: fixed;
     left: 0;
@@ -17,12 +18,13 @@ footer p {
     float: left;
 }
 
-.number{
+.number{ /* het telefoonnummer in de footer */
     color:white;
     float: right;
     margin-right: 50px;
 }
 
+/* dit is de code voor de social media icons */
 .social {
     list-style: none;
     display: inline-block;
@@ -62,12 +64,16 @@ footer p {
 .social {
     margin-top: 17px;
 }
+
+/* de websites die in de footer vermeld staan */
 .websites{
     color:white;
     float: right;
     margin-right: 50px;
 }
 
+
+/* mediaquery voor mobile */
 @media only screen and (max-width: 768px){
     footer{
         position: relative;
@@ -83,6 +89,7 @@ footer p {
     }
 }
 
+/* mediaquery voor tablet */
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     footer{
         height: 75px;

@@ -19,8 +19,6 @@
     float: left;
 }
 
-
-
 .getuigenis p,
 .getuigenis h3 {
     width: 45%;
@@ -37,8 +35,21 @@
 }
 
 .inleiding {
-    width: 70%;
+    width: 65%;
     margin: auto;
+}
+
+#inleiding{
+    width: 100%;
+}
+
+#inleiding p, #inleiding h3 {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#inleiding img {
+    width: 45%;
 }
 
 @media only screen and (max-width: 768px) {
