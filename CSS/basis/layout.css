@@ -77,7 +77,7 @@ section:last-of-type{ /* dit geeft het laatste stuk van de pagina wat 'ademruimt
         margin-left: 25px;
     }
 
-    .twocolumn p, .twocolumn h3{
+    .twocolumn p, .twocolumn h4{
         width: 100%;
         clear: both;
         padding: 0px;
