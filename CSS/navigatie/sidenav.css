@@ -54,6 +54,7 @@
     transition: .2s;
 }
 
+/* mediaquery voor desktop */
 @media screen and (min-width: 1024px){
     .side{
         position: fixed;

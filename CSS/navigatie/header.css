@@ -13,13 +13,20 @@ header nav {
     background-position: 50% 40px;
 }
 
-header nav img {
+/*dit is de code voor het logo */
+header nav img { 
     width: 200px;
     margin-left: 62px;
     margin-top: -125px;
 }
 
-header ul {
+.logo {
+    width: 180px;
+    margin-top: -45px;
+}
+
+/* dit zijn de navigatielinks */
+header ul { 
     list-style-type: none;
     margin: 0px 50px 0px 0px;
     padding: 0px;
@@ -50,11 +57,7 @@ header li a:hover {
     color: #F7C954;
 }
 
-.logo {
-    width: 180px;
-    margin-top: -45px;
-}
-
+/* dit is de code voor het submenu bij media */
 #current #subnav1 {
     padding-bottom: 0px;
 }
@@ -65,7 +68,7 @@ header li a:hover {
     padding-bottom: 20px;
 }
 
-#subnav1:target {
+#subnav1:target { /*het submenu is zichtbaar als het de target is, wat het word als er op media geklikt word */
     display: block;
 }
 
@@ -80,8 +83,9 @@ header li a:hover {
     text-align: right;
 }
 
-
+/* mediaquery voor mobile */
 @media only screen and (max-width: 768px) {
+    /* de navigatielinks */
     #current {
         background-position: 50% 35px;
         padding-bottom: 25px;
@@ -103,12 +107,13 @@ header li a:hover {
         font-size: 20px;
     }
 
-
+    /* het logo */
     header nav img { 
         margin-left: 25px;
         margin-top: 30px;
     }
     
+    /* het submenu bij media */
     #subnav1{
         width: 100px;
         margin-top: 10px;
